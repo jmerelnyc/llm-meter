@@ -1,0 +1,30 @@
+[package]
+name = "llm-meter"
+version = "0.1.5"
+edition = "2021"
+description = "Terminal-based monitoring tool for LLM API usage and costs"
+license = "MIT"
+repository = "https://github.com/user/llm-meter"
+authors = ["merel <164396066+jmerelnyc@users.noreply.github.com>"]
+keywords = ["llm", "monitor", "cost", "usage", "tui"]
+categories = ["command-line-utilities", "development-tools"]
+readme = "README.md"
+
+[dependencies]
+ratatui = "0.27"
+crossterm = "0.28"
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+chrono = "0.4"
+anyhow = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+dotenvy = "0.15"
+
+[profile.release]
+codegen-units = 1 # Allows compiler to perform better optimization.
+lto = true # Enables Link-time Optimization.
+opt-level = "s" # Prioritizes small binary size. Use `3` if you prefer speed.
+strip = true # Ensures debug symbols are removed.
+

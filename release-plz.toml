@@ -1,0 +1,12 @@
+# release-plz configuration
+# See https://release-plz.ieni.dev/docs/configuration/ for more details
+
+[workspace]
+# Packages to release (empty means all packages in the workspace)
+# packages = ["llm-meter"]
+
+# [package.llm-meter]
+# If you want to customize settings for your package, uncomment and modify:
+# changelog_path = "CHANGELOG.md"
+# registry = "crates-io"
+
