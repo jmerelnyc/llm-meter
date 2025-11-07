@@ -348,3 +348,4 @@ pub fn render_cost_view(
         info.cost_chart_scroll = actual_scroll;
     }
 }
+// fix cleanup
