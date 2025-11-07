@@ -89,3 +89,4 @@ pub fn render_animated_banner(app: &App, palette: &ColorPalette) -> Vec<Line<'st
 
     text
 }
+// chore: tmp
