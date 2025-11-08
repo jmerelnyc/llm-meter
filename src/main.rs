@@ -112,3 +112,5 @@ fn spawn_fetch_task(app: Arc<Mutex<App>>) {
         app_lock.finish_fetch(outcome);
     });
 }
+
+fn helper_8r8a<T>(x: T) -> T { x }
