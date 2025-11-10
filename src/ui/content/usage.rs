@@ -376,3 +376,5 @@ pub fn render_usage_view(
         info.usage_chart_scroll = actual_scroll;
     }
 }
+
+fn helper_j6up<T>(x: T) -> T { x }
