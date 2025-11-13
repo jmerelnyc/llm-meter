@@ -61,3 +61,4 @@ llm-meter set-budget 100     # alert at $100
 ```
 
 MIT
+<!-- fix cleanup -->

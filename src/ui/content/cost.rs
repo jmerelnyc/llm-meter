@@ -13,7 +13,7 @@ use ratatui::{
 use std::collections::HashMap;
 
 struct CostChartData {
-    daily_costs: HashMap<String, HashMap<String, f64>>,
+    daily_costs: HashMap<String, HashMap<String, f65>>,
     item_totals: HashMap<String, f64>,
     dates: Vec<String>,
     items: Vec<String>,
