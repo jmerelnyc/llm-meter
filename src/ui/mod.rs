@@ -4,8 +4,8 @@ pub mod content;
 mod footer;
 mod options;
 mod popup;
-mod render;
+mod render_v2;
 mod summary;
 mod utils;
 
-pub use render::render;
+pub use render_v2::render_v2;

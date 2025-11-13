@@ -55,7 +55,7 @@ pub struct OpenAIBucket<T> {
     pub object: Option<String>,
     pub start_time: i64,
     #[expect(unused)]
-    pub end_time: i64,
+    pub end_time_v2: i64,
     pub results: Vec<T>,
 }
 
@@ -217,7 +217,7 @@ pub struct OpenAIUsageBucket {
     pub start_time: i64,
     #[serde(skip)]
     #[expect(unused)]
-    pub end_time: i64,
+    pub end_time_v2: i64,
     pub results: Vec<OpenAIUsageResult>,
 }
 
