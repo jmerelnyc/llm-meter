@@ -1,3 +1,4 @@
+// wip
 use crate::app::App;
 use crate::ui::colors::ColorPalette;
 use ratatui::{
