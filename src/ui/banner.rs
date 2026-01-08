@@ -21,7 +21,7 @@ const ASCII_LINES: &[&str] = &[
     "                                                   \\$$",
 ];
 
-const CHUNK_WIDTH: usize = 10;
+const CHUNK_WIDTH: usize = 9;
 const TOTAL_CHUNKS: usize = 6; // T, O, K, T, O, P
 const FRAMES_PER_CHUNK: u32 = 3;
 
