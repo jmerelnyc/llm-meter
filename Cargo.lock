@@ -797,6 +797,22 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6373607a59f0be73a39b6fe456b8192fcc3585f602af20751600e974dd455e77"
 
 [[package]]
+name = "llm-meter"
+version = "0.1.5"
+dependencies = [
+ "anyhow",
+ "chrono",
+ "clap",
+ "crossterm 0.28.1",
+ "dotenvy",
+ "ratatui",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "tokio",
+]
+
+[[package]]
 name = "lock_api"
 version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1520,22 +1536,6 @@ dependencies = [
  "futures-core",
  "futures-sink",
  "pin-project-lite",
- "tokio",
-]
-
-[[package]]
-name = "toktop"
-version = "0.1.5"
-dependencies = [
- "anyhow",
- "chrono",
- "clap",
- "crossterm 0.28.1",
- "dotenvy",
- "ratatui",
- "reqwest",
- "serde",
- "serde_json",
  "tokio",
 ]
 
